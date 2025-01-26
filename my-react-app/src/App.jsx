@@ -4,7 +4,7 @@ import EdQueue from './EdQueue'
 import PatientList from './PatientList'
 import QueueStats from './QueueStats'
 import Interface from './Interface'
-import Nav from './Nav'
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {

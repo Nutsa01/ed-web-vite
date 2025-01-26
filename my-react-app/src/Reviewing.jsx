@@ -1,12 +1,12 @@
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
-import './Nav.scss';
+import './Reviewing.scss';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import AverageRemainingTime from './math/AverageRemainingTime.jsx';
 
 
-function Nav({ userId }) {
+function Reviewing({ userId }) {
 
   const [patient, setPatient] = useState(null); // Assuming fetching a single patient
   const [loading, setLoading] = useState(true);
@@ -69,4 +69,4 @@ function Nav({ userId }) {
 
 };
 
-export default Nav;
+export default Reviewing;
